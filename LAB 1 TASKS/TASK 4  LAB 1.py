@@ -1,0 +1,6 @@
+import math
+x = 5
+y = x * 2        
+z = y ** 3     
+w = math.sqrt(z) 
+print(f"x = {x}, y = {y}, z = {z}, w = {w}")
