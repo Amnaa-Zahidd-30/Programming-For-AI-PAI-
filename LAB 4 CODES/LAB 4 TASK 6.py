@@ -15,10 +15,6 @@ class Employee:
          bonus=0.1
          self.salary=self.salary+(0.1*self.salary)
          print("Developer Salary After 10% Bonus is:",self.salary)
-
-       
-         
-
       
 class Manager(Employee):
    def hire(self):
@@ -37,9 +33,7 @@ class SeniorManager(Manager):
       bonus=0.3
       self.salary=self.salary+(0.3*self.salary)
       print("Senior Manager Salary After 30% Bonus is:",self.salary)
-      
-         
-                   
+                         
 M=Manager("arham",50000,"MANAGER")
 M.hire()
 M.calculatebonus()
@@ -49,4 +43,5 @@ D.writecode()
 D.calculatebonus()
 
 S=SeniorManager("amna",90000,"SENIOR MANAGER")
+
 S.calculatebonus()
