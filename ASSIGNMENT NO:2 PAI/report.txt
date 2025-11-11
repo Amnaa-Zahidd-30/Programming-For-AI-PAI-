@@ -1,0 +1,12 @@
+Hypothesis 1: Women and Children First
+      Sex AgeGroup  Survived
+0  female    Child  0.432432
+1  female     Teen  0.716418
+2  female    Adult  0.706009
+3  female   Senior  1.000000
+4    male    Child  0.370370
+5    male     Teen  0.117647
+6    male    Adult  0.198592
+7    male   Senior  0.103448
+Conclusion:
+The data generally supports the 'Women and Children First' hypothesis. As seen above, females and younger passengers (children) show a higher mean survival rate compared to males and adult passengers. This pattern aligns with the historical claim that women and children were prioritized during the Titanic evacuation.
