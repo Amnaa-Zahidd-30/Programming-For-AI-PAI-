@@ -6,9 +6,9 @@ data=pd.read_csv('software houses PK.csv')
 print (data)
 data['Services']=data['Services'].astype(str).str.lower()
 
-technology=["ai","flutter","machine learning","node","react","web development","graphic designing","php web development ","e-commerce","mobile apps","cybersecurity","software development","wordpress","shopify"]
+technology=["ai","flutter","seo","it services","machine learning","node","react","web development","graphic designing","php web development","e-commerce","mobile apps","cybersecurity","software development","wordpress","shopify"]
 
-languages=["c++","java","python","c#","javaScript","php","R","Kotlin","C","TypeScript"]
+languages=["c++","java","python","c#","javascript","php","r","kotlin","c","typescript"]
 
 ser=(data['Services'].apply(lambda x:[k for k in languages if k in x])).explode().value_counts()
 
